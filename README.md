@@ -2,7 +2,8 @@
 Created Risk Game game using the Java Terminal
 
 
-PROBLEM STATEMENT
+PROBLEM STATEMENT:
+---------------------
 The specific project for this semester consists in building a simple “Risk” computer game. Example of such a game includes “Conquest” (http://www.windowsgames.co.uk/conquest.html ) and “Online Risk” (https://www.pogo.com/games/risk?sl=2&gamekey=risk ), which can be downloaded free. A Risk game consists of a connected graph map representing a world map, where each node is a country and each edge represents adjacency between countries. Two or more players can play by placing armies on countries they own, from which they can attack adjacent countries to conquer them. The objective of the game is to conquer all countries on the map.
 
 Map: The game map is a connected graph where each node represents a country owned by one of the players. Edges between the nodes represent adjacency between countries. The map is divided into subgraphs that represent continents. A continent is a connected subgraph of the map graph, and every country belongs to one and only one continent. Each continent is given a control value that determines the number of armies per turn that is given to a player that controls all of it. During game play, every country belongs to one and only one player and contains one or more armies that belong to the player owning the country. In your implementation, it will be expected that the game can be played on any connected graph that is defined by the user before play, saved as a text file representation, and loaded by the game during play.
